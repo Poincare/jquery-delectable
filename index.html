@@ -1,0 +1,27 @@
+<style>
+body {
+    padding-top: 200px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#input_box {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 22px;
+    width: 30%;
+    padding-left: 5px;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="jquery-delectable.js"></script>
+
+<script>
+$(document).ready(function() {
+    $(".delectable").delectable();
+});
+</script>
+<input type="text" id="input_box" value="Delectable Demo - Click" class="delectable" />
+
